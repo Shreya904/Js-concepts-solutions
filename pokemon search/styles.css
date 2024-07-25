@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background-attachment: scroll;
+    background-image: url("/pics/f505f5040274b97cd5114f9ff3ab8b99.jpg"); */
+    background-color: #430164;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%; /* Adjusted width */
+    max-width: 500px; /* Adjusted max-width */
+    position: relative;
+}
+
+h1 {
+    color: #8100bd;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Background for better contrast */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px; /* Center the heading */
+}
+
+/* Search Container Styles */
+.search-container {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: 2px solid #8100bd;
+    border-radius: 25px;
+    width:50%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #8100bd;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #51008f;
+    transform: scale(1.05);
+}
+
+/* Additional Info Styles */
+.name-id, .additional-info, .img, .stats {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.name-id span {
+    display: inline;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.name-id span, .additional-info span {
+    font-size: 15px;
+    color: #000000;
+}
+
+.additional-info span {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.img img {
+    display: block;
+    position: relative;
+    left: 37%;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 3px solid #a600ac;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats Table Styles */
+.stats table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.stats th, .stats td {
+    border: 2px solid #8100bd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.stats th {
+    background-color: #8a00d4;
+    color: #FFF;
+}
+
+.stats td {
+    background-color: #fed6ff;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    
+    #search-input, #search-button {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Type Container Styles
+#type {
+    background-color: #daacf3;
+    border-radius: 2rem;
+    width: 80px; /* Adjust the width as needed */
+    /* height: 40px; /* Adjust the height as needed */
+    /* padding: 5px; /* Optional: Adjust the padding as needed */
+    /* margin: 0 auto; /* Center the box horizontally */
+    /* display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text inside the box */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better appearance */
+
